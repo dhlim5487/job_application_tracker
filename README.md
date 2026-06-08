@@ -1,37 +1,28 @@
 # Job Application Tracker
 
-A command-line tool for tracking job applications, built in Python. I created it
-while job hunting myself — I wanted a simple, fast way to record every application
-and track its status without relying on a messy spreadsheet.
+A simple command-line tool to keep track of job applications. I made this because
+I was applying to a lot of places and kept losing track of what I'd applied to and
+where each one stood. A spreadsheet got messy fast, so I built this instead.
 
-## Features
+## What it does
 
-- **Add applications** — records company, role, date (auto-stamped), status, and notes
-- **View all** — displays every application in a clean table
-- **Update status** — move an application through stages (Applied, Interview, Offer, etc.)
-- **Delete** — remove an entry by selecting it from a numbered list
-- **Summary report** — shows total applications and a breakdown by status
+- Add an application (company, role, status, notes). The date fills in automatically.
+- View everything in a table
+- Update the status of an application as it moves along
+- Delete an application from a list
+- Show a summary of how many applications are at each status
 
-## How to Run
+## How to run it
 
-Requires Python 3 and the `tabulate` library.
+You need Python 3 and one library called tabulate:
 
-Then follow the menu (1–6) to manage your applications.
+Then just use the menu.
 
-## How It Works
+## How it works
 
-All data is stored in a local `applications.csv` file, created automatically on
-first run. The program reads and writes to this file using Python's built-in `csv`
-module, so your data persists between sessions and can also be opened in any
-spreadsheet program.
+Everything gets saved to a file called applications.csv, which the program makes
+on its own the first time you run it. The data stays there between sessions, so
+you can close the program and your applications are still there next time.
 
-## Built With
-
-- Python 3 (standard library: `csv`, `os`, `datetime`, `collections`)
-- [tabulate](https://pypi.org/project/tabulate/) for table formatting
-
-## Why I Built It
-
-I'm someone who notices inefficiency and prefers to fix it directly rather than
-work around it. This started as a personal tool for my own job search and became
-my first independent Python project.
+This is my first Python project. I'm a chemistry graduate currently learning to
+code, and I wanted my first project to be something I'd actually use.
