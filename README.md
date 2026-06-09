@@ -23,6 +23,3 @@ Then just use the menu.
 Everything gets saved to a file called applications.csv, which the program makes
 on its own the first time you run it. The data stays there between sessions, so
 you can close the program and your applications are still there next time.
-
-This is my first Python project. I'm a chemistry graduate currently learning to
-code, and I wanted my first project to be something I'd actually use.
