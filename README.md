@@ -1,22 +1,28 @@
 # Job Application Tracker
 
-A simple command-line tool to keep track of job applications. I made this because
-I was applying to a lot of places and kept losing track of what I'd applied to and
-where each one stood. A spreadsheet got messy fast, so I built this instead.
+A command-line tool to keep track of job applications. I built this because I wanted
+to see the whole picture of my applications in one place: what I'd applied to, where
+each one stood, and what was left to do. A spreadsheet got messy fast, so I made this
+instead, and I've updated it a few times since because the first version bugged me
+and I wanted it better.
 
 ## What it does
 
-- Add an application (company, role, status, notes). The date fills in automatically.
+- Add an application: company, role, location, date, status, and notes
+- Change any field of an entry, not just the status
+- Delete an entry by picking it from a numbered list
 - View everything in a table
-- Update the status of an application as it moves along
-- Delete an application from a list
+- Filter to show only applications at a certain status (like just interviews)
 - Show a summary of how many applications are at each status
+
+## Statuses
+
+Applied, Not Applied, Online Assessment, Interview, Offer, Rejected.
+If something isn't applied yet, the date is left blank.
 
 ## How to run it
 
 You need Python 3 and one library called tabulate:
-
-Then just use the menu.
 
 ## How it works
 
